@@ -2,6 +2,10 @@
 
 Black-box safety eval for Indic LLMs. Sends adversarial prompts to a hosted Indic model, scores the responses, and saves audit-grade JSON.
 
+[![PyPI version](https://img.shields.io/pypi/v/indic-safety-probe.svg)](https://pypi.org/project/indic-safety-probe/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ```
 pip install indic-safety-probe
 export SARVAM_API_KEY=...
