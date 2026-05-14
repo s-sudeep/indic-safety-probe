@@ -45,7 +45,7 @@ Out of scope: adversarial suffix attacks (white-box), agent-framework probes (or
 
 ## Note on development
 
-This is a vibe-coded v0.1 built in ~14 hours for an Activate AI Fellows submission. Code is short (~900 lines, half prompts). Findings are real and reproducible from the cached JSON. The design decisions — probe taxonomy, benign-control structure, reasoning-trace handling, scope boundaries — are author-owned; the implementation was co-written with an LLM.
+This is a vibe-coded v0.1 built in ~8 hours for an Activate AI Fellows submission. Code is short (~900 lines, half prompts). Findings are real and reproducible from the cached JSON. The design decisions — probe taxonomy, benign-control structure, reasoning-trace handling, scope boundaries — are author-owned; the implementation was co-written with an LLM.
 
 ## License
 
