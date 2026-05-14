@@ -1,0 +1,42 @@
+[project]
+name = "indic-safety-probe"
+version = "0.1.0"
+description = "Black-box safety eval infrastructure for Indic LLMs"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "sudeep", email = "sudeep.sheshadri@gmail.com" }]
+keywords = ["llm", "safety", "evaluation", "indic", "nlp", "red-teaming"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "openai>=1.0",
+    "python-dotenv>=1.0",
+    "rich>=13.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/s-sudeep/indic-safety-probe"
+Repository = "https://github.com/s-sudeep/indic-safety-probe"
+
+[project.scripts]
+indic-safety-probe = "indic_safety_probe.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.11.13,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "build>=1.5.0",
+    "twine>=6.2.0",
+]
